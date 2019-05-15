@@ -74,7 +74,6 @@ header nav ul:after {
 header nav ul li {
     float: right;
     margin-left: 48px;
-
     position: relative;
 }
 
@@ -108,10 +107,56 @@ header nav ul li a:before {
 
 header nav ul li:hover a:before {
     opacity: 1;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 header nav ul li:hover a {
     transition: 0.3s;
     color: black;
+}
+
+header nav ul li.active a:before {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+header nav ul li.active a {
+    transition: 0.3s;
+    color: black;
+}
+
+section .owl-carousel {
+    position: relative;
+    z-index: 1;
+
+}
+
+section .item_text {
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    margin-top: -28px;
+    margin-left: -310px;
+
+}
+
+section .item_text h2 {
+    font-size: 48px;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    padding: 0 42px 0 46px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 300;
+}
+
+section .item_text h3 {
+    text-transform: uppercase;
+    color: black;
+    padding-top: 41px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 300;
 }
