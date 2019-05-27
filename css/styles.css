@@ -365,3 +365,10 @@ section .item_text h3 {
 .ui-dialog form div {
     margin: 31px 0;
 }
+
+/*.ui-dialog form a{*/
+    /*width: 100%;*/
+    /*max-width: 530px;*/
+    /*line-height: 61px;*/
+    /*margin-top: 42px;*/
+/*}*/
